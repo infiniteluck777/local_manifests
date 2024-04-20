@@ -79,5 +79,7 @@
 <!-- try to fix libcxx 
   <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github" revision="lineage-20.0"/>-->
-  
+  <!-- rising fix-->
+  <remove-project name="RisingTechOSS/android_vendor_rising" />
+  <project path="vendor/lineage" name="PhantomEnigma/android_vendor_rising" revision="thirteen" />
   </manifest>
