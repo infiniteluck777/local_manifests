@@ -76,10 +76,14 @@
   <project path="module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
+  <!-- vibrator fix -->
+  <remove-project path="vendor/qcom/opensource/vibrator" />
+    <project path="vendor/qcom/opensource/vibrator" name="EAZYBLACK/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/>
 <!-- try to fix libcxx 
   <remove-project name="platform/external/libcxx" />
   <project path="external/libcxx" name="LineageOS/android_external_libcxx" remote="github" revision="lineage-20.0"/>-->
-  <!-- rising fix-->
+  <!-- rising fix
   <remove-project name="RisingTechOSS/android_vendor_rising" />
   <project path="vendor/lineage" name="PhantomEnigma/android_vendor_rising" revision="thirteen" />
+  -->
   </manifest>
