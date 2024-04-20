@@ -77,7 +77,7 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
   <!-- vibrator fix -->
-  <remove-project path="vendor/qcom/opensource/vibrator" />
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
     <project path="vendor/qcom/opensource/vibrator" name="EAZYBLACK/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/>
 <!-- try to fix libcxx 
   <remove-project name="platform/external/libcxx" />
