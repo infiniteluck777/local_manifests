@@ -84,8 +84,8 @@
   <project path="kernel/xiaomi/mithorium-4.19/module/prima" name="vendor_qcom_opensource_wlan_prima" groups="module" revision="wlan/LA.UM.9.6.4/mithorium/master"  remote="mi-thorium" >
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
-  <!-- vibrator fix -->
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />
+  <!-- vibrator fix 
+  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator" />-->
   <project path="vendor/qcom/opensource/vibrator" name="EAZYBLACK/android_vendor_qcom_opensource_vibrator" remote="github" revision="lineage-20.0"/>
 
 <!-- try to fix libcxx 
