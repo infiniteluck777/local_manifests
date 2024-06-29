@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   
+  <remote name="Gtajisan" fetch="https://github.com/Gtajisan"/>
+ <!-- <remote name="Jprimero15" fetch="https://github.com/Jprimero15"/> -->
+ <!-- <remote name="mi-msm8937" fetch="https://github.com/mi-msm8937" /> -->
+ <!-- <remote name="mi-thorium" fetch="https://github.com/Mi-Thorium" /> -->
+ <!-- <remote name="mi-sdm439" fetch="https://github.com/mi-sdm439" /> -->
+  
   <!-- GPS -->
 <project path="hardware/qcom-caf/gps-legacy" name="MI439-CLO/android_hardware_qcom_gps" remote="github" revision="uvite-legacy-component" />
    
@@ -85,5 +91,8 @@
   
  <!--- Vendor Blobs -->
  <project path="vendor/xiaomi/mi439" name="LOLZKERNEL/proprietary_vendor_xiaomi_mi439-4.19" remote="github" clone-depth="1" revision="udc" />
-  
+
+  <!-- MODs -->
+  <project path="vendor/miuicamera" name="vendor_MiuiCamera" remote="mi-sdm439" revision="eleven"/>
+
 </manifest>
