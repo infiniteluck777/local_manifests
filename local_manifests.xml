@@ -103,7 +103,6 @@
 <!-- v4x -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
   
-<!-- DerpLauncher 
-<project path="packages/apps/DerpLauncher" name="DerpFest-AOSP/packages_apps_DerpLauncher" groups="pdk-fs,sysui-studio" remote="github" revision="14" />
- <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" groups="pdk-fs" remote="derp" />-->
+<!-- Lawnchair -->
+  <project path="vendor/lawnchair" name="android_vendor_lawnchair" remote="phantom" revision="uvite" />
 </manifest>
