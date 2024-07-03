@@ -95,10 +95,6 @@
 
 <!-- Derp prebuilts -->
 <project path="prebuilts/derp" name="prebuilts_derp" remote="phantom" revision="14" />
-
-<!-- Sepolicy -->
-  <remove-project name="system_sepolicy" />
-  <project path="system/sepolicy" name="PhantomEnigma/system_sepolicy" remote="github" revision="14-QPR3" />
   
 <!-- v4x -->
   <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
