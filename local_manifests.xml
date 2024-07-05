@@ -15,7 +15,7 @@
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisam"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
 
@@ -94,9 +94,9 @@
   </project>
 
 <!-- Derp prebuilts -->
-<project path="prebuilts/derp" name="prebuilts_derp" remote="phantom" revision="14" />
+<project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
   
 <!-- v4x -->
-  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="Gtajisan" revision="v4a" />
   
 </manifest>
