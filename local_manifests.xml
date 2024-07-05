@@ -100,4 +100,7 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
 
+<!-- v4x -->
+  <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="phantom" revision="v4a" />
+  
 </manifest>
