@@ -9,9 +9,12 @@
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
            revision="a13/master" />
-  
-  <remote  name="github"
-           fetch="https://github.com" />
+
+  <!-- Dependencies -->
+
+  <!-- Replacements -->
+
+   
  <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan" revision="a13/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
