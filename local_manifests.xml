@@ -2,17 +2,18 @@
 <manifest>
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
-           revision="a13/master" />
+           revision="a14/master" />
   <remote  name="phantom"
            fetch="https://github.com/PhantomEnigma"
-           revision="a13/master" />
+           revision="a14/master" />
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
-           revision="a13/master" />
-
-  <!-- Dependencies -->
-
-  <!-- Replacements -->
+           revision="a14/master" />
+  
+  <!--
+  <remote  name="github"
+           fetch="https://github.com" />
+-->
 
    
  <!-- Common -->
