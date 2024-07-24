@@ -3,7 +3,9 @@
   <remote  name="mi-thorium"
            fetch="https://github.com/Mi-Thorium"
            revision="a14/master" />
- 
+  <remote  name="phantom"
+           fetch="https://github.com/PhantomEnigma"
+           revision="a14/master" />
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
            revision="a14/master" />
