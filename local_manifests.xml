@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="Gtajisan" fetch="https://github.com/Gtajisan" />
-  <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
+  <remote name="TheMuppets" fetch="https://github.com/TheMuppets"/>
 
  <!-- Derp prebuilts -->
  <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
@@ -16,8 +16,8 @@
   <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
      
  <!-- Mi439 -->
-  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439_13"     groups="device" remote="Gtajisan" revision="a14/evoxyz"/>
-  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="mi-thorium"/>
+  <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439_13"     groups="device" remote="Gtajisan" revision="afterlife-13"/>
+  <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" groups="device" remote="TheMuppets" revision="lineage-20"/>
 
  <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="kt_merlinx" remote="shakib" revision="lineage-20"/>
