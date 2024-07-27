@@ -11,7 +11,9 @@
   <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX" remote="shakib" revision="main" />
 
  <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="dt_common_merlinx" remote="shakib" revision="lineage-20"/>
+  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan" revision="a13/master"/>
+  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
+  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
      
  <!-- Mi439 -->
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439_13"     groups="device" remote="Gtajisan" revision="a14/evoxyz"/>
