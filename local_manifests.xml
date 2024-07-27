@@ -4,6 +4,9 @@
   <remote name="Gtajisan" fetch="https://github.com/Gtajisan" />
   <remote name="clang" fetch="https://dev.azure.com/ozipoetra120/test/_git"/>
 
+ <!-- Derp prebuilts -->
+ <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
+
  <!-- Viper4Android -->
   <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX" remote="shakib" revision="main" />
 
