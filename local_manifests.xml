@@ -3,7 +3,7 @@
 
   <remote name="Gtajisan" fetch="https://github.com/Gtajisan" />
   <remote name="TheMuppets" fetch="https://github.com/TheMuppets"/>
-  <remote name="mi-thorium" fetch="https://github.com/TheMuppets"/>
+  <remote name="mi-thorium" fetch="https://github.com/Mi-Thorium"/>
   
  <!-- Derp prebuilts -->
  <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
