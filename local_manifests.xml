@@ -10,9 +10,6 @@
  <!-- Derp prebuilts -->
  <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
 
- <!-- Viper4Android -->
-  <project path="packages/apps/ViPER4AndroidFX" name="ViPER4AndroidFX" remote="shakib" revision="main" />
-
  <!-- Common Device Tree -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="Gtajisan" revision="a13/master"/>
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
@@ -58,11 +55,8 @@
     <linkfile src="." dest="kernel/xiaomi/mithorium-4.19/kernel/drivers/staging/prima" />
   </project>
   
- <!-- vendor Common Trees--> 
-  <project path="vendor/xiaomi/mt6768-common" name="vt_common_merlinx" remote="shakib" revision="lineage-20"/>
-
- <!-- vendor tree-->
-  <project path="vendor/xiaomi/merlinx" name="vt_merlinx" remote="shakib" revision="lineage-20"/>
+  <!-- Common - Kernel 4.19 -->
+  <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/>
 
  <!-- Hardware -->
   <project path="hardware/mithorium/common" name="android_hardware_mithorium_common" groups="device" remote="Gtajisan" revision="lineage">
@@ -91,11 +85,5 @@
   <project path="hardware/mithorium/audio/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/hal" name="android_hardware_qcom_audio_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0"/>
   <project path="hardware/mithorium/media/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/hal" name="android_hardware_qcom_media_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0"/>
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05500-89xx.QSSI13.0"/>
-
- <!-- Mtk sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/>
-
- <!-- Clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-r487747c" name="clang-r487747c" remote="clang" revision="main" clone-depth="1"/>
 
 </manifest>
