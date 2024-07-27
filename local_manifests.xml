@@ -4,6 +4,8 @@
   <remote name="Gtajisan" fetch="https://github.com/Gtajisan" />
   <remote name="TheMuppets" fetch="https://github.com/TheMuppets"/>
   <remote name="mi-thorium" fetch="https://github.com/Mi-Thorium"/>
+  <remote name="LineageOS" fetch="https://github.com/LineageOS"/>
+  
   
  <!-- Derp prebuilts -->
  <project path="prebuilts/derp" name="prebuilts_derp" remote="Gtajisan" revision="14" />
@@ -30,7 +32,7 @@
   <project path="vendor/xiaomi/merlinx" name="vt_merlinx" remote="shakib" revision="lineage-20"/>
 
  <!-- Hardware -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="shakib" revision="lineage-20"/>
+  <project path="hardware/mediatek" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-20"/>
 
  <!-- Mtk sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="shakib" revision="lineage-20"/>
