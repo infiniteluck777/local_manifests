@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="Gtajisan"
            fetch="https://github.com/Gtajisan"
-           revision="android-12.1" />
+           revision="Twrp_12.1" />
                                    
  <!--Tree -->
   <project path="device/xiaomi/mi439" name="recovery_device_xiaomi_mi439" remote="Gtajisan" revision="Twrp_12.1" />
