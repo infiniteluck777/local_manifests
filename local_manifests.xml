@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="Gtajisan"
-           fetch="https://github.com/Gtajisan"
+           fetch="https://github.com/Porter-union-rom-updates"
            revision="Main" />
                                    
  <!--Tree -->
